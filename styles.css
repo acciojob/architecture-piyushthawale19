@@ -1,1 +1,54 @@
 /*  your css code here. If applicable */
+*{
+	width:1100px;
+	background-color:#cbd6cb;	
+}
+.container {
+	width: 1100px;
+    margin: auto;
+}
+ 
+.imageContainer img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+/* Table Styling */
+table {
+    width: 1100px;
+    border-collapse: collapse;
+    background-color: #e6ebe8;
+}
+
+td {
+    vertical-align: top;
+    padding: 10px;
+}
+
+/* Images inside table */
+td img {
+    width: 100%;
+    height: auto;
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+}
+
+/* Paragraph */
+p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+#row1img{
+	width:200px;
+	
+}
+#col2{
+	width:600px;
+	/* display:inline; */
+}
+#text{
+	align-items:center;
+}
